@@ -42,6 +42,7 @@ void draw() {
     case 5:  showLoseScreen();  break;
     case 6:  showAboutUs();     break;
     case 7:  showManual();      break;
+    case 8:  showDeclaration(); break;
     default: showMenuPage();    break; // case 1
   }
 }
@@ -55,6 +56,7 @@ void mousePressed() {
     case 5:  handleLoseClick();      break;
     case 6:  handleAboutUsClick();   break;
     case 7:  handleManualClick();    break;
+    case 8:  handleDeclarationClick(); break;
   }
 }
 
